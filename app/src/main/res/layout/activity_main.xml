@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/vermilion"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:id="@+id/calculatorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cal"
+        android:textColor="@color/eggShell"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/age"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:background="@color/airSuperiorityBlue"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/inMinutesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/minutes"
+        android:textSize="25sp"
+        android:textColor="@color/eggShell"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/datePickerBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:backgroundTint="@color/white"
+        android:textAlignment="center"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:id="@+id/dateTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dd_MM_yyyy"
+        android:textSize="20sp"
+        android:textColor="@color/eggShell"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/selectDateTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selectDate"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/ageInMinutesTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/minuteTV"
+        android:textSize="35sp"
+        android:textColor="@color/eggShell"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/minuteTillDateTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/minutesTillDate"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+</LinearLayout>
